@@ -35,6 +35,9 @@ export default defineConfig(({ mode, command }) => {
       target: 'esnext',
       minify: false,
     },
+    server: {
+      host: true,
+    },
     optimizeDeps: {
       force: true,
       include: ['react', 'react-dom'],
