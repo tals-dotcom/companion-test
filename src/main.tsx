@@ -5,7 +5,7 @@ import "./stylesheets/stylesheet_2.css"
 import "./stylesheets/stylesheet_1.css"
 import App from './App.tsx'
 
-createRoot(document.querySelector('html')).render(
+createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>
